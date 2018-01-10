@@ -1,19 +1,81 @@
-#body {
-	background-color: red;
+#body, html {
+	height: 100%;
+	background-image: url("pictures/hardware.jpg");
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+}	
+
+#body2, html {
+	height: 100%;
+	background-image: url("pictures/software.png");
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
 }
 
-#body2 {
-	background-color: green;
+#body3, html {
+	height: 100%;
+	background-image: url("pictures/appInvent.jpg");
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
 }
 
-#body3 {
-	background-color: blue;
-}
-
-#body4 {
+#body4, html {
+	height: 100%;
 	background-color: orange;
+	background-image: url("pictures/html.png");
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
 }
 
-#body5 {
+#body5, html {
 	background-color: yellow;
+	height: 100%;
+	background-image: url("pictures/javaScript.png");
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+}
+
+#h1 {
+	text-align: center;
+	color: orange;
+	list-style-position: inside;
+}
+
+#h2 {
+	text-align: center;
+	color: purple;
+	list-style-position: inside;
+}
+
+#h3 {
+	text-align: center;
+	color: red;
+	list-style-position: inside;
+}
+
+#h4 {
+	text-align: center;
+	color: green;
+	list-style-position: inside;
+}
+
+#h5 {
+	text-align: center;
+	color: blue;
+	list-style-position: inside;
 }
