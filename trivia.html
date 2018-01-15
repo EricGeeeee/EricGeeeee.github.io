@@ -11,10 +11,6 @@ var sound2 = new Audio('sounds/defeat.mp3');
 var sound3 = new Audio('sounds/NO.m4a');
 var sound4 = new Audio('sounds/NOO.m4a');
 var sound5 = new Audio('sounds/YES.m4a');
-var img1 = new Image('pictures/fun.gif');
-var img2 = new Image('pictures/no.gif');
-var img3 = new Image('pictures/solo.gif');
-var img4 = new Image('pictures/yoda.gif');
 var score = 0
 var i = 1
 var ans = 1
@@ -27,11 +23,13 @@ if (ans===1){
     if(yy==="D"){
         document.getElementById("question").value="You are right"
         sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
 	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound3.play("NO.m4a")
+	document.searchImage.src = "pictures/noo.gif"
         
     }
     document.view.qscore.value=score
@@ -41,11 +39,13 @@ else if (ans===2){
     if(yy==="A"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
 	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound4.play("NOO.m4a")
+	document.searchImage.src = "pictures/no.gif"
         
     }
     document.view.qscore.value=score
@@ -56,11 +56,13 @@ else if (ans===3){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
         sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
 	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound3.play("NO.m4a")
+	document.searchImage.src = "pictures/noo.gif"
         
     }
     document.view.qscore.value=score
@@ -71,11 +73,13 @@ else if (ans===4){
     if(yy==="B"){
         document.getElementById("question").value="You are right"
         sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
 	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound4.play("NOO.m4a")
+	document.searchImage.src = "pictures/no.gif"
         
     }
     document.view.qscore.value=score
@@ -86,11 +90,13 @@ else if (ans===5){
     if(yy==="D"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound3.play("NO.m4a")
+	document.searchImage.src = "pictures/noo.gif"
         
     }
     document.view.qscore.value=score
@@ -101,11 +107,13 @@ else if (ans===6){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
         sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
 	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound4.play("NOO.m4a")
+	document.searchImage.src = "pictures/no.gif"
         
     }
     document.view.qscore.value=score
@@ -116,11 +124,13 @@ else if (ans===7){
     if(yy==="A"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound3.play("NO.m4a")
+	document.searchImage.src = "pictures/noo.gif"
         
     }
     document.view.qscore.value=score
@@ -131,11 +141,13 @@ else if (ans===8){
     if(yy==="D"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound4.play("NOO.m4a")
+	document.searchImage.src = "pictures/no.gif"
         
     }
     document.view.qscore.value=score
@@ -146,11 +158,13 @@ else if (ans===9){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
         sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
 	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound3.play("NO.m4a")
+	document.searchImage.src = "pictures/noo.gif"
         
     }
     document.view.qscore.value=score
@@ -161,11 +175,13 @@ else if (ans===10){
     if(yy==="A"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound4.play("NOO.m4a")
+	document.searchImage.src = "pictures/no.gif"
         
     }
     document.view.qscore.value=score
@@ -176,11 +192,13 @@ else if (ans===11){
     if(yy==="B"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound3.play("NO.m4a")
+	document.searchImage.src = "pictures/noo.gif"
         
     }
     document.view.qscore.value=score
@@ -191,11 +209,13 @@ else if (ans===12){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound4.play("NOO.m4a")
+	document.searchImage.src = "pictures/no.gif"
         
     }
     document.view.qscore.value=score
@@ -206,11 +226,13 @@ else if (ans===13){
     if(yy==="D"){
         document.getElementById("question").value="You are right"
 	sound5.play("YES.m4a")
+	document.searchImage.src = "pictures/solo.gif"
         score++
     }
     else {
         document.getElementById("question").value="You are wrong"
 	sound3.play("NO.m4a")
+	document.searchImage.src = "pictures/noo.gif"
         
     }
     document.view.qscore.value=score
@@ -301,10 +323,12 @@ else if (i===13){
 else if (i===14){
     alert("You got"+ " " + Math.round(score/(i-1)*100)  + "% for this Trivia Quiz")
 if (score>=7) {
-	sound1.play("victory.mp3");
+	sound1.play("victory.mp3")
+	document.searchImage.src = "pictures/fun.gif"
 }
 else {
-	sound2.play("defeat.mp3");
+	sound2.play("defeat.mp3")
+	document.searchImage.src = "pictures/yoda.gif"
 }
 	}
 	i++; 
@@ -313,6 +337,7 @@ else {
 	<link type="text/css" rel="stylesheet" href="trivia.css">
 </head>
 <body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()" id="body">
+<img src="pictures/hello.gif" name="searchImage">
 <br>
 <FORM name="view" id="p1">  
 	Question: &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question" onClick=main()>
