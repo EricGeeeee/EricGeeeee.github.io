@@ -8,6 +8,9 @@
     
 var sound1 = new Audio('sounds/victory.mp3');
 var sound2 = new Audio('sounds/defeat.mp3');
+var sound3 = new Audio('sounds/NO.m4a');
+var sound4 = new Audio('sounds/NOO.m4a');
+var sound5 = new Audio('sounds/YES.m4a');
 var img1 = new Image('pictures/fun.gif');
 var img2 = new Image('pictures/no.gif');
 var img3 = new Image('pictures/solo.gif');
@@ -23,12 +26,12 @@ if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="D"){
         document.getElementById("question").value="You are right"
-        sound1.play("victory.mp3")
+        sound5.play("YES.m4a")
 	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
-	sound2.play("defeat.mp3")
+	sound3.play("NO.m4a")
         
     }
     document.view.qscore.value=score
@@ -37,10 +40,12 @@ else if (ans===2){
 	y = document.getElementById("qans").value
     if(yy==="A"){
         document.getElementById("question").value="You are right"
-		 score++
+	sound5.play("YES.m4a")
+	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound4.play("NOO.m4a")
         
     }
     document.view.qscore.value=score
@@ -50,10 +55,12 @@ else if (ans===3){
 	y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-         score++
+        sound5.play("YES.m4a")
+	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound3.play("NO.m4a")
         
     }
     document.view.qscore.value=score
@@ -63,10 +70,12 @@ else if (ans===4){
 	y = document.getElementById("qans").value
     if(yy==="B"){
         document.getElementById("question").value="You are right"
-         score++
+        sound5.play("YES.m4a")
+	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound4.play("NOO.m4a")
         
     }
     document.view.qscore.value=score
@@ -76,10 +85,12 @@ else if (ans===5){
 	y = document.getElementById("qans").value
     if(yy==="D"){
         document.getElementById("question").value="You are right"
-         score++
+	sound5.play("YES.m4a")
+        score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound3.play("NO.m4a")
         
     }
     document.view.qscore.value=score
@@ -89,10 +100,12 @@ else if (ans===6){
 	y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-         score++
+        sound5.play("YES.m4a")
+	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound4.play("NOO.m4a")
         
     }
     document.view.qscore.value=score
@@ -102,10 +115,12 @@ else if (ans===7){
 	y = document.getElementById("qans").value
     if(yy==="A"){
         document.getElementById("question").value="You are right"
-         score++
+	sound5.play("YES.m4a")
+        score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound3.play("NO.m4a")
         
     }
     document.view.qscore.value=score
@@ -115,10 +130,12 @@ else if (ans===8){
 	y = document.getElementById("qans").value
     if(yy==="D"){
         document.getElementById("question").value="You are right"
-         score++
+	sound5.play("YES.m4a")
+        score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound4.play("NOO.m4a")
         
     }
     document.view.qscore.value=score
@@ -128,10 +145,12 @@ else if (ans===9){
 	y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-         score++
+        sound5.play("YES.m4a")
+	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound3.play("NO.m4a")
         
     }
     document.view.qscore.value=score
@@ -141,10 +160,12 @@ else if (ans===10){
 	y = document.getElementById("qans").value
     if(yy==="A"){
         document.getElementById("question").value="You are right"
-         score++
+	sound5.play("YES.m4a")
+        score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound4.play("NOO.m4a")
         
     }
     document.view.qscore.value=score
@@ -154,10 +175,12 @@ else if (ans===11){
 	y = document.getElementById("qans").value
     if(yy==="B"){
         document.getElementById("question").value="You are right"
-         score++
+	sound5.play("YES.m4a")
+        score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound3.play("NO.m4a")
         
     }
     document.view.qscore.value=score
@@ -167,10 +190,12 @@ else if (ans===12){
 	y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-         score++
+	sound5.play("YES.m4a")
+        score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound4.play("NOO.m4a")
         
     }
     document.view.qscore.value=score
@@ -180,10 +205,12 @@ else if (ans===13){
 	y = document.getElementById("qans").value
     if(yy==="D"){
         document.getElementById("question").value="You are right"
-         score++
+	sound5.play("YES.m4a")
+        score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound3.play("NO.m4a")
         
     }
     document.view.qscore.value=score
