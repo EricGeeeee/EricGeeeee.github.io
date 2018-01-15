@@ -23,10 +23,12 @@ if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="D"){
         document.getElementById("question").value="You are right"
-        score++
+        sound1.play("victory.mp3")
+	score++
     }
     else {
         document.getElementById("question").value="You are wrong"
+	sound2.play("defeat.mp3")
         
     }
     document.view.qscore.value=score
