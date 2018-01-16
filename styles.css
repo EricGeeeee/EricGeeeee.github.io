@@ -7,7 +7,6 @@
 }	
 
 #body2, html {
-	height: 100%;
 	background-image: url("pictures/software.png");
     	background-position: center;
     	background-repeat: no-repeat;
@@ -16,7 +15,6 @@
 }
 
 #body3, html {
-	height: 100%;
 	background-image: url("pictures/appInvent.jpg");
     	background-position: center;
     	background-repeat: no-repeat;
@@ -25,7 +23,6 @@
 }
 
 #body4, html {
-	height: 100%;
 	background-color: orange;
 	background-image: url("pictures/html.png");
     	background-position: center;
