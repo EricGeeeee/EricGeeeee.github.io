@@ -46,8 +46,9 @@
 }
 
 #body6, html {
-	background-color: yellow;
-	height: 100%;
+	background-color: grey;
+	height: 50%;
+	width: 100%;
 	background-image: url("pictures/congradulations.png");
     	background-position: center;
     	background-repeat: no-repeat;
