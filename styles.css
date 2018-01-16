@@ -4,7 +4,6 @@
     	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover;
-    	background-repeat: no-repeat;
     	background-attachment: fixed;
 }	
 
@@ -14,7 +13,6 @@
     	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover;
-    	background-repeat: no-repeat;
     	background-attachment: fixed;
 }
 
@@ -24,7 +22,6 @@
     	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover;
-    	background-repeat: no-repeat;
     	background-attachment: fixed;
 }
 
@@ -35,7 +32,6 @@
     	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover;
-    	background-repeat: no-repeat;
     	background-attachment: fixed;
 }
 
@@ -46,9 +42,19 @@
     	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover;
-    	background-repeat: no-repeat;
     	background-attachment: fixed;
 }
+
+#body6, html {
+	background-color: yellow;
+	height: 100%;
+	background-image: url("pictures/congradulations.png");
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-attachment: fixed;
+}
+
 
 #h1 {
 	text-align: center;
