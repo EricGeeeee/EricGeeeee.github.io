@@ -314,13 +314,14 @@ else if (i===13){
     
 else if (i===14){
     alert("You got"+ " " + Math.round(score/(i-1)*100)  + "% for this Trivia Quiz")
-if (score>=7) {
+if (score>=11) {
 	sound1.play("victory.mp3")
 	document.searchImage.src = "pictures/fun.gif"
 }
 else {
 	sound2.play("defeat.mp3")
 	document.searchImage.src = "pictures/yoda.gif"
+	alert("You have achieved under 80%, press the reset button to redo the trivia.");
 }
 	}
 	i++; 
