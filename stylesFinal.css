@@ -1,0 +1,13 @@
+#body, html {
+background-color: red;
+background-image: url("pictures/congratulations.png");
+}
+
+#h1 {
+color: black;
+text-align: center;
+list-style-position: inside;
+}
+.wrapper {
+    text-align: center;
+}
